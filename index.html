@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc-body">
+          <div class="calc-screen">
+            <div class="calc-operation"></div>
+            <div class="calc-typed" id="inputscreen">0</div>
+          </div>
+          <div class="calc-button-row">
+            <div class="button c" onclick="Clear()">C</div>
+            <div class="button l">≠</div>
+            <div class="button l" onclick="calculator(this.innerText)">%</div>
+            <div class="button l" onclick="calculator(this.innerText)">/</div>
+          </div>
+          <div class="calc-button-row">
+            <div class="button number" onclick="calculator(this.innerText)" >7</div>
+            <div class="button number"onclick="calculator(this.innerText)">8</div>
+            <div class="button number" onclick="calculator(this.innerText)">9</div>
+            <div class="button l" onclick="calculator(this.innerText)">x</div>
+          </div>
+          <div class="calc-button-row">
+            <div class="button number" onclick="calculator(this.innerText)">4</div>
+            <div class="button number" onclick="calculator(this.innerText)">5</div>
+            <div class="button number" onclick="calculator(this.innerText)">6</div>
+            <div class="button l" onclick="calculator(this.innerText)">−</div> 
+          </div>
+          <div class="calc-button-row">
+            <div class="button number" onclick="calculator(this.innerText)">1</div>
+            <div class="button number" onclick="calculator(this.innerText)">2</div>
+            <div class="button number" onclick="calculator(this.innerText)">3</div>
+            <div class="button number l "  onclick="calculator(this.innerText)">+</div>
+          </div>
+          <div class="calc-button-row">
+            <div class="button number"onclick="calculator(this.innerText)" >.</div>
+            <div class="button number" onclick="calculator(this.innerText)">0</div>
+            <div class="button"><
+              </div> 
+                <div class="button result"  onclick="calculator(this.innerText)">=</div>
+            </div>
+          </div>
+        </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
